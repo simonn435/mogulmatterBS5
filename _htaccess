@@ -1,0 +1,18 @@
+RewriteEngine On
+RewriteBase "/"
+
+RewriteCond %{HTTP_HOST} ^mogulmatter.com$
+RewriteRule (.*) https://www.mogulmatter.com/$1 [END,R=301]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule !^(healthcheck\.txt)$ https://%{SERVER_NAME}%{REQUEST_URI} [END,R=302]
+
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
+
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
