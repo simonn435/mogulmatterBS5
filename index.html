@@ -1,195 +1,300 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/bootstrap.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
-    <link rel="icon" href="src/favicon.ico">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="src/favicon.ico" />
     <title>MogulMatter</title>
-        <!-- Theme styles -->
-    <link rel="stylesheet" type="text/css" href="assets/css/theme.min.css">
+    <!-- Theme styles -->
+    <link rel="stylesheet" type="text/css" href="assets/css/theme.min.css" />
+    <!-- Comment the following line if you prefer vendors broken down -->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendor.min.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-93715648-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-93715648-1');
-  gtag('config', 'AW-966606947');
-</script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-93715648-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-93715648-1");
+      gtag("config", "AW-966606947");
+    </script>
   </head>
   <body class="bg-dark">
+    <!---Start Navbar-->
 
-<!---Start Navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark sticky-top bgnav-black">
-    <div class="container">
-      <a class="pr-1" href="index.html" aria-label="Product">
-    </a>
-      <a class="" href="index.html">
-      <img src="src/logowhite.png" style="width: 115%;" alt="">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarsExample07">
-        <ul class="navbar-nav ml-auto mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="real-estate-photography.html">Real Estate Media</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="website-design.html">Website Design</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="website-hosting.html">Website Hosting</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="advertising.html">Advertising</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="seo.html">SEO</a>
-          </li>
-          <li class="nav-item pl-2"/>
-            <a class="nav-link" href="contact.html">Contact Us</a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" role="navigation">
+      <div class="container">
+        <a class="" href="index.html">
+          <img src="src/logowhite.png" style="width: 115%" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbar-collapse-1"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbar-collapse-1"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="website-design.html">Website Design</a>
+            </li>
+            <li class="nav-item dropdown dropdown-hover">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+              >
+                More
+              </a>
+              <div class="dropdown-menu" role="menu">
+                <a class="dropdown-item" href="contact.html">Contact Us</a>
+                <a class="dropdown-item" href="real-estate-photography.html"
+                  >Real Estate Media</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="seo.html">SEO</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-<!---End Navbar-->
+    </nav>
 
+    <!---End Navbar-->
+    <section class="bg-white position-relative z-index-2">
+      <!---Start Hero--->
 
-<!---Start Hero--->
-<div class="container-fluid bg-secondary py-10">
-  <br><br>
-<div class="container text-light">
-    <h1 class="display-4 text-center">MogulMatter</h1>
-    <p class="lead text-center">We are a company that has been in Advertising, Website Design and Website Hosting for over 13 years. We create websites from scratch, get clients more business and Build fast secure Servers.</p>
-</div>
-</div>
-<!---- End Hero--->
+      <div class="pt-7 pt-lg-8 pb-7 bg-dark text-center">
+        <div class="container">
+          <h1
+            class="display-1 font-weight-bolder text-bg-clip fx-fade-up"
+            style="background-image: url('assets/img/unsplash/25.jpeg')"
+          >
+            <img
+              src="assets/img/unsplash/25.jpeg"
+              class="d-none"
+            /><!-- for eager load -->
+            MogulMatter
+          </h1>
 
-<!---- Start Services--->
-<div class="container-fluid bg-gray-900 py-5">
-<div class="container">
-<div class="card mb-3 bg-dark text-light" style="">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="src/reext1.jpg" class="w-100" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Real Estate Photo & Video</h5>
-        <p class="card-text">Looking to sell or rent a house and want it to look the best possible. We take professional photography and create amazing property videos.</p>
-        <a class="btn btn-success" href="real-estate-photography.html" role="button">More Information</a>
+          <div class="h3 font-weight-normal text-white mt-4">
+            <div class="d-inline d-md-block fx-fade-up animation-delay-2">
+              We are a company that has been in Advertising, Website Design and
+            </div>
+            <div class="d-inline d-md-block fx-fade-up animation-delay-3 mt-2">
+              Website Hosting for over 13 years. We create websites from
+              scratch,
+            </div>
+            <div class="d-inline d-md-block fx-fade-up animation-delay-4 mt-2">
+              get clients more business and Build fast secure Servers.
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
+      <!---- End Hero--->
 
-<div class="card mb-3 bg-darkblue text-white" style="">
-  <div class="row g-0">
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Website Design</h5>
-        <p class="card-text">We create professional websites for every industry. We use the best computer programmers and designers. Every Site comes Search Engine Optimized</p>
-        <a class="btn btn-success" href="website-design.html" role="button">More Information</a>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <img src="src/codecard.jpg" class="w-100" alt="...">
-    </div>
-  </div>
-</div>
+      <!---- Start Services--->
+      <div class="container-fluid bg-dark py-5 z-index-3">
+        <div class="container">
+          <div class="card mb-3 bg-darkblue text-light">
+            <div class="row g-0">
+              <div class="col-md-4 jarallax" jarallax>
+                <img src="src/reext1.jpg" class="w-100" alt="..." />
+              </div>
 
-<div class="card mb-3 bg-fourth text-light" style="">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="src/metricscard.jpg" class="w-100" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">SEM & SMM Advertising</h5>
-        <p class="card-text">Want more clients, sales and income? We have the perfect options for you. Our Advertising packages are best suited for business looking to increase traffic, recognition and sales</p>
-        <a class="btn btn-success" href="advertising.html" role="button">More Information</a>
-      </div>
-    </div>
-  </div>
-</div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Real Estate Photo & Video</h5>
+                  <p class="card-text">
+                    Looking to sell or rent a house and want it to look the best
+                    possible. We take professional photography and create
+                    amazing property videos.
+                  </p>
+                  <a
+                    class="btn btn-purple"
+                    href="real-estate-photography.html"
+                    role="button"
+                    >More Information</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
 
-<div class="card mb-3 bg-third" style="">
-  <div class="row g-0">
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Search Engine Optimization</h5>
-        <p class="card-text">Ranking on Search Engines is extremely valuable and beneficial. We have the best SEO strategist to get you ranking on the best keywords as quickly as possible</p>
-        <a class="btn btn-success" href="seo.html" role="button">More Information</a>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <img src="src/seohero.jpg" class="w-100" alt="...">
-    </div>
-  </div>
-</div>
+          <div class="card mb-3 bg-dark text-white">
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Website Design</h5>
+                  <p class="card-text">
+                    We create professional websites for every industry. We use
+                    the best computer programmers and designers. Every Site
+                    comes Search Engine Optimized
+                  </p>
+                  <a
+                    class="btn btn-purple"
+                    href="website-design.html"
+                    role="button"
+                    >More Information</a
+                  >
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="src/codecard.jpg" class="w-100" alt="..." />
+              </div>
+            </div>
+          </div>
 
-<div class="card mb-3 bg-fourth text-light" style="">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="src/flexcard.jpg" class="w-100" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Website Hosting</h5>
-        <p class="card-text">Tree options for web hosting. we cover every type of website. We use Google to create fast, secure and wonderful servers.</p>
-        <a class="btn btn-success" href="website-hosting.html" role="button">More Information</a>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
+          <div class="card mb-3 bg-darkblue text-light">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="src/metricscard.jpg" class="w-100" alt="..." />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">SEM & SMM Advertising</h5>
+                  <p class="card-text">
+                    Want more clients, sales and income? We have the perfect
+                    options for you. Our Advertising packages are best suited
+                    for business looking to increase traffic, recognition and
+                    sales
+                  </p>
+                  <a
+                    class="btn btn-purple"
+                    href="advertising.html"
+                    role="button"
+                    >More Information</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="card mb-3 bg-dark text-light">
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Search Engine Optimization</h5>
+                  <p class="card-text">
+                    Ranking on Search Engines is extremely valuable and
+                    beneficial. We have the best SEO strategist to get you
+                    ranking on the best keywords as quickly as possible
+                  </p>
+                  <a class="btn btn-purple" href="seo.html" role="button"
+                    >More Information</a
+                  >
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="src/seohero.jpg" class="w-100" alt="..." />
+              </div>
+            </div>
+          </div>
 
-<!-- Footer -->
-<div class="container-fluid">
-  <footer class="container my-md-5 pt-md-5 border-top">
-    <div class="row">
-      <div class="col-12 col-md">
-        <img class="mb-2" src="src/logoblack.png" alt="" width="200">
-        <small class="d-block mb-3 text-muted">&copy; 2015-2020</small>
+          <div class="card mb-3 bg-darkblue text-light">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="src/flexcard.jpg" class="w-100" alt="..." />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Website Hosting</h5>
+                  <p class="card-text">
+                    Tree options for web hosting. we cover every type of
+                    website. We use Google to create fast, secure and wonderful
+                    servers.
+                  </p>
+                  <a
+                    class="btn btn-purple"
+                    href="website-hosting.html"
+                    role="button"
+                    >More Information</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-6 col-md">
-        <h5>Products & Services</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="link-secondary" href="real-estate-photography.html">Real Estate Photo&Video</a></li>
-          <li><a class="link-secondary" href="website-design.html">Website Design</a></li>
-          <li><a class="link-secondary" href="website-hosting.html">Website Hosting</a></li>
-          <li><a class="link-secondary" href="advertising.html">Advertising</a></li>
-          <li><a class="link-secondary" href="seo.html">SEO</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Resources</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="link-secondary" href="blog.html">Blog</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>About</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="link-secondary" href="contact.html">Contact Us</a></li>
-          <li><a class="link-secondary" href="index.html">Home</a></li>
-        </ul>
-      </div>
-    </div>
-  </footer>
-</div>
-  <!-- ./Footer -->
+    </section>
+    <!-- Footer -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <!-- ./Footer -->
+    <section class="position-relative z-index-0">
+      <!-- footer space for fixed effect -->
+      <div
+        class="position-relative z-index--2 d-none d-lg-block"
+        style="height: 450px"
+      ></div>
+
+      <footer
+        class="footer footer-dark bg-dark position-lg-fixed vw-100 bottom-0 z-index--1 py-7"
+      >
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-12 col-md mt-5 mt-md-0">
+              <h6 class="footer-header mb-4 pb-md-2">Products</h6>
+              <a
+                class="link-secondary footer-link mt-2"
+                href="real-estate-photography.html"
+                >Real Estate Photo&Video</a
+              >
+              <a
+                class="link-secondary footer-link mt-2"
+                href="website-design.html"
+                >Website Design</a
+              >
+              <a
+                class="link-secondary footer-link mt-2"
+                href="website-hosting.html"
+                >Website Hosting</a
+              >
+
+              <a class="link-secondary footer-link mt-2" href="advertising.html"
+                >Advertising</a
+              >
+              <a class="link-secondary footer-link mt-2" href="seo.html">SEO</a>
+            </div>
+
+            <div class="col-12 col-md mt-5 mt-md-0">
+              <h6 class="footer-header mb-4 pb-md-2">Resources</h6>
+              <a href="#" class="footer-link"> Blog </a>
+            </div>
+
+            <div class="col-12 col-md mt-5 mt-md-0">
+              <h6 class="footer-header mb-4 pb-md-2">About</h6>
+              <a href="#" class="footer-link">Contact Us</a>
+              <a href="#" class="footer-link mt-2">Home</a>
+            </div>
+          </div>
+
+          <div class="mt-6">
+            <div class="col-12 col-md">
+              <img class="mb-2" src="src/logoblack.png" alt="" width="200" />
+              <small class="d-block mb-3 text-muted">&copy; 2015-2020</small>
+            </div>
+            <div class="d-flex justify-content-center">
+              <a href="#" class="footer-text mx-3"> Privacy & terms </a>
+              <a href="#" class="footer-text mx-3"> Terms of service </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/js/theme.min.js"></script>
   </body>
 </html>
