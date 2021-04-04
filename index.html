@@ -12,6 +12,14 @@
     <link rel="stylesheet" type="text/css" href="assets/css/theme.min.css" />
     <!-- Comment the following line if you prefer vendors broken down -->
     <link rel="stylesheet" type="text/css" href="assets/css/vendor.min.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -33,7 +41,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" role="navigation">
       <div class="container">
         <a class="" href="index.html">
-          <img src="src/logowhite.png" style="width: 115%" alt="" />
+          <img src="src/logowhite.png" style="width: 100%" alt="" />
         </a>
         <button
           class="navbar-toggler"
@@ -50,13 +58,20 @@
             <li class="nav-item">
               <a class="nav-link" href="website-design.html">Website Design</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="instagram-bot.html">Instagram BOT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="seo.html">SEO</a>
+            </li>
             <li class="nav-item dropdown dropdown-hover">
               <a
                 href="#"
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle align-items-center"
                 data-toggle="dropdown"
               >
                 More
+                <i class="fas fa-angle-down"></i>
               </a>
               <div class="dropdown-menu" role="menu">
                 <a class="dropdown-item" href="contact.html">Contact Us</a>
@@ -65,28 +80,20 @@
                 >
               </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="seo.html">SEO</a>
-            </li>
           </ul>
         </div>
       </div>
     </nav>
 
     <!---End Navbar-->
-    <section class="bg-white position-relative z-index-2">
+    <section class="position-relative z-index-2">
       <!---Start Hero--->
 
-      <div class="pt-7 pt-lg-8 pb-7 bg-dark text-center">
+      <div class="pt-7 pb-7 bg-dark text-center">
         <div class="container">
           <h1
-            class="display-1 font-weight-bolder text-bg-clip fx-fade-up"
-            style="background-image: url('assets/img/unsplash/25.jpeg')"
+            class="display-1 font-weight-bolder text-pastel-secondary fx-fade-up"
           >
-            <img
-              src="assets/img/unsplash/25.jpeg"
-              class="d-none"
-            /><!-- for eager load -->
             MogulMatter
           </h1>
 
@@ -104,153 +111,145 @@
           </div>
         </div>
       </div>
+
       <!---- End Hero--->
 
       <!---- Start Services--->
-      <div class="container-fluid bg-dark py-5 z-index-3">
-        <div class="container">
-          <div class="card mb-3 bg-darkblue text-light">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <div class="atvImg" style="width: 370px; height: 225px">
-                  <span class="atvImg-layer" data-img="src/reext1.jpg"></span>
-                </div>
-                <!-- <img src="src/reext1.jpg" class="w-100" alt="..." /> -->
-              </div>
 
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Real Estate Photo & Video</h5>
-                  <p class="card-text">
-                    Looking to sell or rent a house and want it to look the best
-                    possible. We take professional photography and create
-                    amazing property videos.
-                  </p>
-                  <a
-                    class="btn btn-purple"
-                    href="real-estate-photography.html"
-                    role="button"
-                    >More Information</a
-                  >
-                </div>
-              </div>
+      <div class="row container m-auto bg-dark justify-content-center">
+        <!-- Story -->
+        <div class="col-md-6">
+          <div class="card rounded-lg shadow-light hover-lift-light">
+            <div class="card-body">
+              <a
+                href="customer-story.html"
+                class="d-block rounded bg-cover h-250"
+                style="background-image: url('src/reext1.jpg')"
+              ></a>
+              <h5 class="mt-3">Real Estate Photo & Video</h5>
+              <p class="mt-3">
+                Looking to sell or rent a house and want it to look the best
+                possible. We take professional photography and create amazing
+                property videos.
+              </p>
             </div>
+
+            <a
+              class="btn btn-purple"
+              href="real-estate-photography.html"
+              role="button"
+              >More Information</a
+            >
           </div>
+        </div>
 
-          <div class="card mb-3 bg-dark text-white">
-            <div class="row g-0">
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Website Design</h5>
-                  <p class="card-text">
-                    We create professional websites for every industry. We use
-                    the best computer programmers and designers. Every Site
-                    comes Search Engine Optimized
-                  </p>
-                  <a
-                    class="btn btn-purple"
-                    href="website-design.html"
-                    role="button"
-                    >More Information</a
-                  >
-                </div>
-              </div>
-              <div class="col-md-4">
-                <!-- <img src="src/codecard.jpg" class="w-100" alt="..." /> -->
-                <div class="atvImg" style="width: 370px; height: 225px">
-                  <span class="atvImg-layer" data-img="src/codecard.jpg"></span>
-                </div>
-              </div>
+        <!-- Story -->
+        <div class="col-md-6 mt-6 mt-md-0">
+          <div class="card rounded-lg shadow-light hover-lift-light">
+            <div class="card-body">
+              <a
+                href="customer-story.html"
+                class="d-block rounded bg-cover h-250"
+                style="background-image: url('src/codecard.jpg')"
+              ></a>
+              <h5 class="mt-3">Website Design</h5>
+              <p class="mt-3">
+                We create professional websites for every industry. We use the
+                best computer programmers and designers. Every Site comes Search
+                Engine Optimized
+              </p>
             </div>
+
+            <a
+              class="btn btn-purple"
+              href="real-estate-photography.html"
+              role="button"
+              >More Information</a
+            >
           </div>
+        </div>
 
-          <div class="card mb-3 bg-darkblue text-light">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <div class="atvImg" style="width: 370px; height: 225px">
-                  <span
-                    class="atvImg-layer"
-                    data-img="src/metricscard.jpg"
-                  ></span>
-                </div>
-                <!-- <img src="src/metricscard.jpg" class="w-100" alt="..." /> -->
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">SEM & SMM Advertising</h5>
-                  <p class="card-text">
-                    Want more clients, sales and income? We have the perfect
-                    options for you. Our Advertising packages are best suited
-                    for business looking to increase traffic, recognition and
-                    sales
-                  </p>
-                  <a
-                    class="btn btn-purple"
-                    href="advertising.html"
-                    role="button"
-                    >More Information</a
-                  >
-                </div>
-              </div>
+        <!-- Story -->
+        <div class="col-md-6 mt-6">
+          <div class="card rounded-lg shadow-light hover-lift-light">
+            <div class="card-body">
+              <a
+                href="customer-story.html"
+                class="d-block rounded bg-cover h-250"
+                style="background-image: url('src/metricscard.jpg')"
+              ></a>
+              <h5 class="mt-3">SEM & SMM Advertising</h5>
+              <p class="mt-3">
+                Want more clients, sales and income? We have the perfect options
+                for you. Our Advertising packages are best suited for business
+                looking to increase traffic, recognition and sales
+              </p>
             </div>
+
+            <a
+              class="btn btn-purple"
+              href="real-estate-photography.html"
+              role="button"
+              >More Information</a
+            >
           </div>
+        </div>
 
-          <div class="card mb-3 bg-dark text-light">
-            <div class="row g-0">
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Search Engine Optimization</h5>
-                  <p class="card-text">
-                    Ranking on Search Engines is extremely valuable and
-                    beneficial. We have the best SEO strategist to get you
-                    ranking on the best keywords as quickly as possible
-                  </p>
-                  <a class="btn btn-purple" href="seo.html" role="button"
-                    >More Information</a
-                  >
-                </div>
-              </div>
-              <div class="col-md-4">
-                <!-- <img src="src/seohero.jpg" class="w-100" alt="..." /> -->
-                <div class="atvImg" style="width: 370px; height: 225px">
-                  <span class="atvImg-layer" data-img="src/seohero.jpg"></span>
-                </div>
-              </div>
+        <!-- Story -->
+        <div class="col-md-6 mt-6">
+          <div class="card rounded-lg shadow-light hover-lift-light">
+            <div class="card-body">
+              <a
+                href="customer-story.html"
+                class="d-block rounded bg-cover h-250"
+                style="background-image: url('src/seohero.jpg')"
+              ></a>
+              <h5 class="mt-3">Search Engine Optimization</h5>
+              <p class="mt-3">
+                Ranking on Search Engines is extremely valuable and beneficial.
+                We have the best SEO strategist to get you ranking on the best
+                keywords as quickly as possible
+              </p>
             </div>
+
+            <a
+              class="btn btn-purple"
+              href="real-estate-photography.html"
+              role="button"
+              >More Information</a
+            >
           </div>
+        </div>
 
-          <div class="card mb-3 bg-darkblue text-light">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <!-- <img src="src/flexcard.jpg" class="w-100" alt="..." /> -->
-                <div class="atvImg" style="width: 370px; height: 225px">
-                  <span class="atvImg-layer" data-img="src/flexcard.jpg"></span>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Website Hosting</h5>
-                  <p class="card-text">
-                    Tree options for web hosting. we cover every type of
-                    website. We use Google to create fast, secure and wonderful
-                    servers.
-                  </p>
-                  <a
-                    class="btn btn-purple"
-                    href="website-hosting.html"
-                    role="button"
-                    >More Information</a
-                  >
-                </div>
-              </div>
+        <!-- Story -->
+        <div class="col-md-6 mt-6">
+          <div class="card rounded-lg shadow-light hover-lift-light">
+            <div class="card-body">
+              <a
+                href="customer-story.html"
+                class="d-block rounded bg-cover h-250"
+                style="background-image: url('src/flexcard.jpg')"
+              ></a>
+              <h5 class="mt-3">Website Hosting</h5>
+              <p class="mt-3">
+                Tree options for web hosting. we cover every type of website. We
+                use Google to create fast, secure and wonderful servers.
+              </p>
             </div>
+
+            <a
+              class="btn btn-purple"
+              href="real-estate-photography.html"
+              role="button"
+              >More Information</a
+            >
           </div>
         </div>
       </div>
     </section>
+
     <!-- Footer -->
 
-    <!-- ./Footer -->
     <section class="position-relative z-index-0">
       <!-- footer space for fixed effect -->
       <div
@@ -311,6 +310,7 @@
           </div>
         </div>
       </footer>
+      <!-- end footer -->
     </section>
     <script src="assets/js/vendor.min.js"></script>
     <script src="assets/js/theme.min.js"></script>

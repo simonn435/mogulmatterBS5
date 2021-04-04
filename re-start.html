@@ -3,8 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/bootstrap.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
+    <!-- Theme styles -->
+    <link rel="stylesheet" type="text/css" href="assets/css/theme.min.css" />
+    <!-- Comment the following line if you prefer vendors broken down -->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendor.min.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
     <link rel="icon" href="src/favicon.ico">
     <title>Real Estate Photogrpahy & Video</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -17,12 +26,12 @@
   gtag('config', 'AW-966606947');
 </script>
 </head>
-<body class="bg-light">
+<body class="bg-dark">
 
 <!-- submission form-->
-<main class="container mt-4">
+<main class="container mt-4 text-light">
 <div class="container container-form">
-  <div class="display-4 text-center mb-3">
+  <div class="display-4 text-center mb-3 text-secondary">
    Real Estate<br>Photography and Video
   </div>
 <form action="re-form.php" id="design_form" method="post">
@@ -146,46 +155,62 @@
 </main>
 <!-- End Contact Form -->
 
-<br><br><br>
-<!-- Footer -->
-<div class="container-fluid">
-  <footer class="container my-md-5 pt-md-5 border-top">
-    <div class="row">
-      <div class="col-12 col-md">
-        <img class="mb-2" src="src/logoblack.png" alt="" width="200">
-        <small class="d-block mb-3 text-muted">&copy; 2015-2020</small>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Products & Services</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="link-secondary" href="real-estate-photography.html">Real Estate Photo&Video</a></li>
-          <li><a class="link-secondary" href="website-design.html">Website Design</a></li>
-          <li><a class="link-secondary" href="website-hosting.html">Website Hosting</a></li>
-          <li><a class="link-secondary" href="advertising.html">Advertising</a></li>
-          <li><a class="link-secondary" href="seo.html">SEO</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Resources</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="link-secondary" href="blog.html">Blog</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>About</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="link-secondary" href="contact.html">Contact Us</a></li>
-          <li><a class="link-secondary" href="index.html">Home</a></li>
-        </ul>
-      </div>
-    </div>
-  </footer>
-</div>
-  <!-- ./Footer -->
+    <!-- ./Footer -->
+    <section>
+      <footer class="footer footer-dark bg-dark vw-100 bottom-0 py-7">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-12 col-md mt-5 mt-md-0">
+              <h6 class="footer-header mb-4 pb-md-2">Products</h6>
+              <a
+                class="link-secondary footer-link mt-2"
+                href="real-estate-photography.html"
+                >Real Estate Photo&Video</a
+              >
+              <a
+                class="link-secondary footer-link mt-2"
+                href="website-design.html"
+                >Website Design</a
+              >
+              <a
+                class="link-secondary footer-link mt-2"
+                href="website-hosting.html"
+                >Website Hosting</a
+              >
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script src="js/bootstrap.min.js"></script>
+              <a class="link-secondary footer-link mt-2" href="advertising.html"
+                >Advertising</a
+              >
+              <a class="link-secondary footer-link mt-2" href="seo.html">SEO</a>
+            </div>
+
+            <div class="col-12 col-md mt-5 mt-md-0">
+              <h6 class="footer-header mb-4 pb-md-2">Resources</h6>
+              <a href="#" class="footer-link"> Blog </a>
+            </div>
+
+            <div class="col-12 col-md mt-5 mt-md-0">
+              <h6 class="footer-header mb-4 pb-md-2">About</h6>
+              <a href="#" class="footer-link">Contact Us</a>
+              <a href="#" class="footer-link mt-2">Home</a>
+            </div>
+          </div>
+
+          <div class="mt-6">
+            <div class="col-12 col-md">
+              <img class="mb-2" src="src/logoblack.png" alt="" width="200" />
+              <small class="d-block mb-3 text-muted">&copy; 2015-2020</small>
+            </div>
+            <div class="d-flex justify-content-center">
+              <a href="#" class="footer-text mx-3"> Privacy & terms </a>
+              <a href="#" class="footer-text mx-3"> Terms of service </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/js/theme.min.js"></script>
   </body>
 </html>
