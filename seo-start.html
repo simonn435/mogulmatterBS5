@@ -1,9 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- Theme styles -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Theme styles -->
     <link rel="stylesheet" type="text/css" href="assets/css/theme.min.css" />
     <!-- Comment the following line if you prefer vendors broken down -->
     <link rel="stylesheet" type="text/css" href="assets/css/vendor.min.css" />
@@ -14,110 +17,221 @@
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
     />
-    <link rel="icon" href="src/favicon.ico">
+    <link rel="icon" href="src/favicon.ico" />
     <title>SEO|MogulMatter</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-93715648-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-93715648-1');
-  gtag('config', 'AW-966606947');
-</script>
-
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-93715648-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-93715648-1");
+      gtag("config", "AW-966606947");
+    </script>
   </head>
   <body class="bg-dark">
+    <!-- Contact form-->
+    <main class="container mt-4 text-light">
+      <div class="container container-form">
+        <div class="display-4 text-center mb-3 text-secondary">
+          Search Engine Optimization
+        </div>
+        <!-- Form -->
+        <section class="bg-dark mt-5">
+          <div class="container position-relative fx-fade-up animation-delay-3">
+            <div
+              class="bg-white w-lg-60 rounded shadow-light-lg mx-auto py-5 px-4 px-md-6"
+            >
+              <form action="seo-form.php" id="" method="post">
+                <div class="mb-3">
+                  <label class="form-label text-dark"> Your name </label>
+                  <input
+                    type="text"
+                    class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
+                  />
+                  <div class="invalid-feedback">Valid name is required.</div>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label text-dark"> Email address </label>
+                  <input
+                    type="email"
+                    class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
+                  />
+                  <div class="invalid-feedback">
+                    Please enter a valid email address.
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label text-dark"> Phone number </label>
+                  <input
+                    type="phone"
+                    class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
+                  />
+                  <div class="invalid-feedback">
+                    Please enter your Phone Number.
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label text-dark"
+                    >Business Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
+                    name="businessname"
+                    id="businessname"
+                    aria-describedby="form-control"
+                    placeholder=""
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label text-dark"
+                    >Business Description</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
+                    name="businessdescription"
+                    id="businessdescription"
+                    aria-describedby="form-control"
+                    placeholder="Enter description of Business"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label
+                    for="exampleFormControlSelect1"
+                    class="form-label text-dark"
+                    >Do You Currently Have a Website</label
+                  >
+                  <select
+                    class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
+                    name="websitestatus"
+                    id="exampleFormControlSelect1"
+                    required
+                  >
+                    <option value="">Select Answer</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label
+                    for="exampleFormControlSelect1"
+                    class="form-label text-dark"
+                    >Have You Done SEO In The Past</label
+                  >
+                  <select
+                    class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
+                    name="pastseo"
+                    id="exampleFormControlSelect3"
+                    required
+                  >
+                    <option value="">Select Answer</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label text-dark"
+                    >I'm Interested In:</label
+                  >
+                  <br />
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      name="services[]"
+                      type="checkbox"
+                      id="inlineCheckbox1"
+                      value="Optimization"
+                    />
+                    <label class="form-label text-dark" for="inlineCheckbox1"
+                      >Optimizing My Website</label
+                    >
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      name="services[]"
+                      type="checkbox"
+                      id="inlineCheckbox2"
+                      value="Rank Higher"
+                    />
+                    <label class="form-label text-dark" for="inlineCheckbox2"
+                      >Ranking higher for important keywords</label
+                    >
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      name="services[]"
+                      type="checkbox"
+                      id="inlineCheckbox3"
+                      value="up traffic"
+                    />
+                    <label class="form-label text-dark" for="inlineCheckbox3"
+                      >Increasing Traffic</label
+                    >
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      name="services[]"
+                      type="checkbox"
+                      id="inlineCheckbox4"
+                      value="up sales"
+                    />
+                    <label class="form-label text-dark" for="inlineCheckbox4"
+                      >Increasing Sales</label
+                    >
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      name="services[]"
+                      type="checkbox"
+                      id="inlineCheckbox5"
+                      value="up sign ups"
+                    />
+                    <label class="form-label text-dark" for="inlineCheckbox5"
+                      >Increasing Sign ups</label
+                    >
+                  </div>
+                </div>
+                <div class="mb-3"></div>
+                <div class="mb-3">
+                  <label class="form-label text-dark"> Your message </label>
+                  <textarea
+                    rows="4"
+                    class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
+                  ></textarea>
+                  <div class="msg-error"></div>
+                  <div
+                    class="g-recaptcha"
+                    id="key_recaptcha"
+                    data-sitekey="6Lfi9OgUAAAAAHCZKyvl2jKek6k5fPuDxkTAHw-6"
+                    required
+                  ></div>
+                </div>
 
-<!-- Contact form-->
-<main class="container mt-4 text-light">
-<div class="container container-form ">
-  <div class="display-4 text-center mb-3 text-secondary">
-    Search Engine Optimization
-  </div>
-<form action="seo-form.php" id="" method="post">
-  <label for="exampleInputEmail1">I'm Interested In:</label>
-  <br>
-  <div class="form-check form-check-inline">
-  <input class="form-check-input" name="services[]" type="checkbox" id="inlineCheckbox1" value="Optimization">
-  <label class="form-check-label" for="inlineCheckbox1">Optimizing My Website</label>
-</div>
-<div class="form-check form-check-inline">
-  <input class="form-check-input" name="services[]" type="checkbox" id="inlineCheckbox2" value="Rank Higher">
-  <label class="form-check-label" for="inlineCheckbox2">Ranking higher for important keywords</label>
-</div>
-<div class="form-check form-check-inline">
-  <input class="form-check-input"  name="services[]" type="checkbox" id="inlineCheckbox3" value="up traffic">
-  <label class="form-check-label" for="inlineCheckbox3">Increasing Traffic</label>
-</div>
-<div class="form-check form-check-inline">
-  <input class="form-check-input"  name="services[]" type="checkbox" id="inlineCheckbox4" value="up sales">
-  <label class="form-check-label" for="inlineCheckbox4">Increasing Sales</label>
-</div>
-<div class="form-check form-check-inline">
-  <input class="form-check-input"  name="services[]" type="checkbox" id="inlineCheckbox5" value="up sign ups">
-  <label class="form-check-label" for="inlineCheckbox5">Increasing Sign ups</label>
-</div>
-<hr>
-  <div class="form-group">
-    <div class="form-row mb-3">
-    <div class="row">
-      <div class="col">
-        <label for="exampleInputEmail1">First Name</label>
-        <input type="text" name="firstname" class="form-control" placeholder="" aria-label="First name">
+                <input
+                  type="submit"
+                  value="Send Message"
+                  class="btn btn-block btn-purple btn-lg hover-lift-light mt-4"
+                />
+              </form>
+            </div>
+          </div>
+        </section>
       </div>
-      <div class="col">
-        <label for="exampleInputEmail1">Last Name</label>
-        <input type="text" name="lastname" class="form-control" placeholder="" aria-label="Last name">
-      </div>
-    </div>
-  </div>
-  <div class="col-12 mb-2">
-    <label for="phone" class="form-label">Phone Number</label>
-    <input type="text" name="phonenumber" class="form-control" id="phone" placeholder="" required>
-    <div class="invalid-feedback">
-      Please enter your Phone Number.
-    </div>
-  </div>
-    <label for="exampleInputEmail1">Email Address</label>
-    <input type="email" class="form-control" name="emailaddress" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="" required >
-    <small id="emailHelp" class="form-text text-muted">We will never share your personal information.</small>
-  </div>
-  <hr>
-    <label for="exampleInputEmail1">Business Name</label>
-    <input type="text" class="form-control" name="businessname" id="businessname" aria-describedby="form-control" placeholder="" required >
-    <br>
-    <label for="exampleInputEmail1">Business Description</label>
-    <input type="text" class="form-control" name="businessdescription" id="businessdescription" aria-describedby="form-control" placeholder="Enter description of Business" required >
-<br>
-<label for="exampleFormControlSelect1">Do You Currently Have a Website</label>
-<select class="form-select" name="websitestatus" id="exampleFormControlSelect1" required>
-  <option value="">Select Answer</option>
-  <option>Yes</option>
-  <option>No</option>
-</select>
-<br>
-
-<label for="exampleFormControlSelect1">Have You Done SEO In The Past</label>
-<select class="form-select" name="pastseo" id="exampleFormControlSelect3" required>
-  <option value="">Select Answer</option>
-  <option>Yes</option>
-  <option>No</option>
-</select>
-
-<hr>
-  <div class="form-group mb-2">
-    <label for="exampleFormControlTextarea1">Additional Comments</label>
-    <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-  <div class="msg-error"></div>
-  <div class="g-recaptcha" id="key_recaptcha" data-sitekey="6Lfi9OgUAAAAAHCZKyvl2jKek6k5fPuDxkTAHw-6" required></div>
-  <button class="btn btn-primary btn-lg btn-block my-3" type="submit">Submit</button>
-</form>
-</div>
-</div>
-</main>
-<!-- End Contact Form -->
+    </main>
+    <!-- End Contact Form -->
 
     <!-- ./Footer -->
     <section>
@@ -174,8 +288,7 @@
       </footer>
     </section>
 
-    
     <script src="assets/js/vendor.min.js"></script>
     <script src="assets/js/theme.min.js"></script>
-</body>
+  </body>
 </html>
