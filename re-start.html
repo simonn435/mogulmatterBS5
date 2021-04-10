@@ -1,358 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link rel="canonical" href="https://mogulmatter.com/re-start.html" />
-    <!-- Theme styles -->
-    <link rel="stylesheet" type="text/css" href="assets/css/theme.min.css" />
-    <!-- Comment the following line if you prefer vendors broken down -->
-    <link rel="stylesheet" type="text/css" href="assets/css/vendor.min.css" />
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link rel="canonical" href="https://mogulmatter.com/re-start.html" />
+        <!-- Theme styles -->
+        <link rel="stylesheet" type="text/css" href="assets/css/theme.min.css" />
+        <!-- Comment the following line if you prefer vendors broken down -->
+        <link rel="stylesheet" type="text/css" href="assets/css/vendor.min.css" />
 
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    />
-    <link rel="icon" href="src/favicon.ico" />
-    <title>Real Estate Photogrpahy & Video</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-93715648-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "UA-93715648-1");
-      gtag("config", "AW-966606947");
-    </script>
-  </head>
-  <body class="bg-dark">
-    <!-- submission form-->
-    <main class="container mt-4 text-light">
-      <div class="container container-form">
-        <h1 class="display-4 text-center mb-3 text-secondary">
-          Real Estate<br />Photography and Video
-        </h1>
-        <!-- Form -->
-        <section class="bg-dark mt-5">
-          <div class="container position-relative fx-fade-up animation-delay-3">
-            <div
-              class="bg-white w-lg-60 rounded shadow-light-lg mx-auto py-5 px-4 px-md-6"
-            >
-              <form action="re-form.php" id="design_form" method="post">
-                <div class="mb-3">
-                  <label class="form-label text-dark"> Your name </label>
-                  <input
-                    type="text"
-                    class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
-                  />
-                  <div class="invalid-feedback">Valid name is required.</div>
-                </div>
-                <div class="mb-3">
-                  <label class="form-label text-dark"> Email address </label>
-                  <input
-                    type="email"
-                    class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
-                  />
-                  <div class="invalid-feedback">
-                    Please enter a valid email address.
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <label class="form-label text-dark"> Phone number </label>
-                  <input
-                    type="phone"
-                    class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
-                  />
-                  <div class="invalid-feedback">
-                    Please enter your Phone Number.
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label text-dark"
-                    >Property Address</label
-                  >
-                  <input
-                    type="text"
-                    class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
-                    name="propertyaddress"
-                    id="propertyaddress"
-                    aria-describedby="form-control"
-                    placeholder=""
-                    required
-                  />
-                </div>
-                <div class="mb-3">
-                  <div class="row">
-                    <div class="col">
-                      <label
-                        for="exampleInputEmail1"
-                        class="form-label text-dark"
-                        >Number of Bedrooms</label
-                      >
-                      <select
-                        class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
-                        name="bedrooms"
-                        id="exampleFormControlSelect2"
-                        required
-                      >
-                        <option value="">Select Amount</option>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        <option>6</option>
-                        <option>7</option>
-                        <option>8</option>
-                        <option>9</option>
-                        <option>10+</option>
-                      </select>
+        <!-- Font Awesome -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+        <link rel="icon" href="src/favicon.ico" />
+        <title>Real Estate Photogrpahy & Video</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93715648-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+            gtag("config", "UA-93715648-1");
+            gtag("config", "AW-966606947");
+        </script>
+    </head>
+    <body class="bg-dark">
+        <!-- submission form-->
+        <main class="container mt-4 text-light">
+            <div class="container container-form">
+                <h1 class="display-4 text-center mb-3 text-secondary">Real Estate<br />Photography and Video</h1>
+                <!-- Form -->
+                <section class="bg-dark mt-5">
+                    <div class="container position-relative fx-fade-up animation-delay-3">
+                        <div class="bg-white w-lg-60 rounded shadow-light-lg mx-auto py-5 px-4 px-md-6">
+                            <form action="re-form.php" id="design_form" method="post">
+                                <div class="row mb-3">
+                                    <div class="col">
+                                        <label for="exampleInputEmail1" class="form-label text-dark">First Name</label>
+                                        <input type="text" name="firstname" class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0" placeholder="" aria-label="First name" />
+                                    </div>
+                                    <div class="col">
+                                        <label for="exampleInputEmail1" class="form-label text-dark">Last Name</label>
+                                        <input type="text" name="lastname" class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0" placeholder="" aria-label="" />
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label text-dark"> Email address </label>
+                                    <input type="email" name="emailaddress" id="exampleInputEmail1" class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0" />
+                                    <div class="invalid-feedback">Please enter a valid email address.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label text-dark"> Phone number </label>
+                                    <input type="phone" name="phonenumber" id="phonenumber" class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0" />
+                                    <div class="invalid-feedback">Please enter your Phone Number.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label text-dark">Property Address</label>
+                                    <input type="text" class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0" name="propertyaddress" id="propertyaddress" aria-describedby="form-control" placeholder="" required />
+                                </div>
+                                <div class="mb-3">
+                                    <div class="row">
+                                        <div class="col">
+                                            <label for="exampleInputEmail1" class="form-label text-dark">Number of Bedrooms</label>
+                                            <select class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0" name="bedrooms" id="exampleFormControlSelect2" required>
+                                                <option value="">Select Amount</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>8</option>
+                                                <option>9</option>
+                                                <option>10+</option>
+                                            </select>
+                                        </div>
+                                        <div class="col">
+                                            <label for="exampleInputEmail1" class="form-label text-dark">Number of Bathrooms</label>
+                                            <select class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0" name="bathrooms" id="exampleFormControlSelect2" required>
+                                                <option value="">Select Amount</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>8</option>
+                                                <option>9</option>
+                                                <option>10+</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label text-dark">Property Interior Size</label>
+                                    <input type="text" class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0" name="propertsize" id="businessdescription" aria-describedby="form-control" placeholder="Enter Sqft or Sqm" required />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlSelect1" class="form-label text-dark">Property Type</label>
+                                    <select class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0" name="propertytype" id="exampleFormControlSelect3" required>
+                                        <option value="">Select Answer</option>
+                                        s
+                                        <option>Residential</option>
+                                        <option>Commercial</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="form-row mb-3">
+                                        <div class="col"></div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <label for="exampleInputEmail1" class="form-label text-dark">Date For Appointment</label>
+                                                <input class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0" name="date" type="date" value="2020-10-19" id="example-date-input" />
+                                            </div>
+                                            <div class="col">
+                                                <label for="exampleInputEmail1" class="form-label text-dark">Time</label>
+                                                <input class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0" name="time" type="time" value="13:00:00" id="example-time-input" />
+                                            </div>
+                                        </div>
+                                        <div class="col"></div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label text-dark">Services I am Interested in:</label>
+                                    <br />
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input text-dark" name="services[]" type="checkbox" id="inlineCheckbox1" value="Interior/Exterior Photography" />
+                                        <label class="form-check-label text-dark" for="inlineCheckbox1">Interior/Exterior Photography</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input text-dark" name="services[]" type="checkbox" id="inlineCheckbox2" value="Drone Photography" />
+                                        <label class="form-check-label text-dark" for="inlineCheckbox2">Drone Photography</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input text-dark" name="services[]" type="checkbox" id="inlineCheckbox3" value="Brand/Unbranded Video" />
+                                        <label class="form-check-label text-dark" for="inlineCheckbox3">Brand/Unbranded Video</label>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="mb-3">
+                                    <label class="form-label text-dark">Additional Comments</label>
+                                    <textarea rows="4" name="message" id="exampleFormControlTextarea1" class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"></textarea>
+                                    <div class="msg-error"></div>
+                                    <div class="g-recaptcha" id="key_recaptcha" data-sitekey="6Lfi9OgUAAAAAHCZKyvl2jKek6k5fPuDxkTAHw-6" required></div>
+                                </div>
+
+                                <button class="btn btn-block btn-purple btn-lg hover-lift-light mt-4" type="submit">Submit</button>
+                            </form>
+                        </div>
                     </div>
-                    <div class="col">
-                      <label
-                        for="exampleInputEmail1"
-                        class="form-label text-dark"
-                        >Number of Bathrooms</label
-                      >
-                      <select
-                        class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
-                        name="bathrooms"
-                        id="exampleFormControlSelect2"
-                        required
-                      >
-                        <option value="">Select Amount</option>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        <option>6</option>
-                        <option>7</option>
-                        <option>8</option>
-                        <option>9</option>
-                        <option>10+</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label text-dark"
-                    >Property Interior Size</label
-                  >
-                  <input
-                    type="text"
-                    class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
-                    name="propertsize"
-                    id="businessdescription"
-                    aria-describedby="form-control"
-                    placeholder="Enter Sqft or Sqm"
-                    required
-                  />
-                </div>
-                <div class="mb-3">
-                  <label
-                    for="exampleFormControlSelect1"
-                    class="form-label text-dark"
-                    >Property Type</label
-                  >
-                  <select
-                    class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
-                    name="propertytype"
-                    id="exampleFormControlSelect3"
-                    required
-                  >
-                    <option value="">Select Answer</option>
-                    s
-                    <option>Residential</option>
-                    <option>Commercial</option>
-                  </select>
-                </div>
-                <div class="mb-3">
-                  <div class="form-row mb-3">
-                    <div class="col"></div>
+                </section>
+            </div>
+        </main>
+        <!-- End Contact Form -->
+
+        <!-- ./Footer -->
+        <section>
+            <footer class="footer footer-dark bg-dark vw-100 bottom-0 py-7">
+                <div class="container text-center">
                     <div class="row">
-                      <div class="col">
-                        <label
-                          for="exampleInputEmail1"
-                          class="form-label text-dark"
-                          >Date For Appointment</label
-                        >
-                        <input
-                          class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
-                          name="date"
-                          type="date"
-                          value="2020-10-19"
-                          id="example-date-input"
-                        />
-                      </div>
-                      <div class="col">
-                        <label
-                          for="exampleInputEmail1"
-                          class="form-label text-dark"
-                          >Time</label
-                        >
-                        <input
-                          class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
-                          name="time"
-                          type="time"
-                          value="13:00:00"
-                          id="example-time-input"
-                        />
-                      </div>
+                        <div class="col-12 col-md mt-5 mt-md-0">
+                            <h6 class="footer-header mb-4 pb-md-2">Products</h6>
+                            <a class="link-secondary footer-link mt-2" href="real-estate-photography.html">Real Estate Photo&Video</a>
+                            <a class="link-secondary footer-link mt-2" href="website-design.html">Website Design</a>
+                            <a class="link-secondary footer-link mt-2" href="website-hosting.html">Website Hosting</a>
+
+                            <a class="link-secondary footer-link mt-2" href="advertising.html">Advertising</a>
+                            <a class="link-secondary footer-link mt-2" href="seo.html">SEO</a>
+                        </div>
+
+                        <div class="col-12 col-md mt-5 mt-md-0">
+                            <h6 class="footer-header mb-4 pb-md-2">Resources</h6>
+                            <a href="#" class="footer-link"> Blog </a>
+                        </div>
+
+                        <div class="col-12 col-md mt-5 mt-md-0">
+                            <h6 class="footer-header mb-4 pb-md-2">About</h6>
+                            <a href="#" class="footer-link">Contact Us</a>
+                            <a href="#" class="footer-link mt-2">Home</a>
+                        </div>
                     </div>
-                    <div class="col"></div>
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label text-dark"
-                    >Services I am Interested in:</label
-                  >
-                  <br />
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input text-dark"
-                      name="services[]"
-                      type="checkbox"
-                      id="inlineCheckbox1"
-                      value="Interior/Exterior Photography"
-                    />
-                    <label
-                      class="form-check-label text-dark"
-                      for="inlineCheckbox1"
-                      >Interior/Exterior Photography</label
-                    >
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input text-dark"
-                      name="services[]"
-                      type="checkbox"
-                      id="inlineCheckbox2"
-                      value="Drone Photography"
-                    />
-                    <label
-                      class="form-check-label text-dark"
-                      for="inlineCheckbox2"
-                      >Drone Photography</label
-                    >
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input text-dark"
-                      name="services[]"
-                      type="checkbox"
-                      id="inlineCheckbox3"
-                      value="Brand/Unbranded Video"
-                    />
-                    <label
-                      class="form-check-label text-dark"
-                      for="inlineCheckbox3"
-                      >Brand/Unbranded Video</label
-                    >
-                  </div>
-                </div>
-                <hr />
-                <div class="mb-3">
-                  <label class="form-label text-dark"
-                    >Additional Comments</label
-                  >
-                  <textarea
-                    rows="4"
-                    class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
-                  ></textarea>
-                  <div class="msg-error"></div>
-                  <div
-                    class="g-recaptcha"
-                    id="key_recaptcha"
-                    data-sitekey="6Lfi9OgUAAAAAHCZKyvl2jKek6k5fPuDxkTAHw-6"
-                    required
-                  ></div>
-                </div>
 
-                <input
-                  type="submit"
-                  value="Send Message"
-                  class="btn btn-block btn-purple btn-lg hover-lift-light mt-4"
-                />
-              </form>
-            </div>
-          </div>
+                    <div class="mt-6">
+                        <div class="col-12 col-md">
+                            <img class="mb-2" src="src/logoblack.png" alt="logoblack" width="200" />
+                            <small class="d-block mb-3 text-muted">&copy; 2015-2020</small>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="footer-text mx-3"> Privacy & terms </a>
+                            <a href="#" class="footer-text mx-3"> Terms of service </a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </section>
-      </div>
-    </main>
-    <!-- End Contact Form -->
 
-    <!-- ./Footer -->
-    <section>
-      <footer class="footer footer-dark bg-dark vw-100 bottom-0 py-7">
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-12 col-md mt-5 mt-md-0">
-              <h6 class="footer-header mb-4 pb-md-2">Products</h6>
-              <a
-                class="link-secondary footer-link mt-2"
-                href="real-estate-photography.html"
-                >Real Estate Photo&Video</a
-              >
-              <a
-                class="link-secondary footer-link mt-2"
-                href="website-design.html"
-                >Website Design</a
-              >
-              <a
-                class="link-secondary footer-link mt-2"
-                href="website-hosting.html"
-                >Website Hosting</a
-              >
-
-              <a class="link-secondary footer-link mt-2" href="advertising.html"
-                >Advertising</a
-              >
-              <a class="link-secondary footer-link mt-2" href="seo.html">SEO</a>
-            </div>
-
-            <div class="col-12 col-md mt-5 mt-md-0">
-              <h6 class="footer-header mb-4 pb-md-2">Resources</h6>
-              <a href="#" class="footer-link"> Blog </a>
-            </div>
-
-            <div class="col-12 col-md mt-5 mt-md-0">
-              <h6 class="footer-header mb-4 pb-md-2">About</h6>
-              <a href="#" class="footer-link">Contact Us</a>
-              <a href="#" class="footer-link mt-2">Home</a>
-            </div>
-          </div>
-
-          <div class="mt-6">
-            <div class="col-12 col-md">
-              <img
-                class="mb-2"
-                src="src/logoblack.png"
-                alt="logoblack"
-                width="200"
-              />
-              <small class="d-block mb-3 text-muted">&copy; 2015-2020</small>
-            </div>
-            <div class="d-flex justify-content-center">
-              <a href="#" class="footer-text mx-3"> Privacy & terms </a>
-              <a href="#" class="footer-text mx-3"> Terms of service </a>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </section>
-
-    <script src="assets/js/vendor.min.js"></script>
-    <script src="assets/js/theme.min.js"></script>
-  </body>
+        <script src="assets/js/vendor.min.js"></script>
+        <script src="assets/js/theme.min.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    </body>
 </html>

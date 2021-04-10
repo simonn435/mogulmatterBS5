@@ -1,295 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link rel="canonical" href="https://mogulmatter.com/seo-start.html" />
-    <!-- Theme styles -->
-    <link rel="stylesheet" type="text/css" href="assets/css/theme.min.css" />
-    <!-- Comment the following line if you prefer vendors broken down -->
-    <link rel="stylesheet" type="text/css" href="assets/css/vendor.min.css" />
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link rel="canonical" href="https://mogulmatter.com/seo-start.html" />
+        <!-- Theme styles -->
+        <link rel="stylesheet" type="text/css" href="assets/css/theme.min.css" />
+        <!-- Comment the following line if you prefer vendors broken down -->
+        <link rel="stylesheet" type="text/css" href="assets/css/vendor.min.css" />
 
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    />
-    <link rel="icon" href="src/favicon.ico" />
-    <title>SEO|MogulMatter</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-93715648-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "UA-93715648-1");
-      gtag("config", "AW-966606947");
-    </script>
-  </head>
-  <body class="bg-dark">
-    <!-- Contact form-->
-    <main class="container mt-4 text-light">
-      <div class="container container-form">
-        <h1 class="display-4 text-center mb-3 text-secondary">
-          Search Engine Optimization
-        </h1>
-        <!-- Form -->
-        <section class="bg-dark mt-5">
-          <div class="container position-relative fx-fade-up animation-delay-3">
-            <div
-              class="bg-white w-lg-60 rounded shadow-light-lg mx-auto py-5 px-4 px-md-6"
-            >
-              <form action="seo-form.php" id="" method="post">
-                <div class="mb-3">
-                  <label class="form-label text-dark"> Your name </label>
-                  <input
-                    type="text"
-                    class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
-                  />
-                  <div class="invalid-feedback">Valid name is required.</div>
-                </div>
-                <div class="mb-3">
-                  <label class="form-label text-dark"> Email address </label>
-                  <input
-                    type="email"
-                    class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
-                  />
-                  <div class="invalid-feedback">
-                    Please enter a valid email address.
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <label class="form-label text-dark"> Phone number </label>
-                  <input
-                    type="phone"
-                    class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
-                  />
-                  <div class="invalid-feedback">
-                    Please enter your Phone Number.
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label text-dark"
-                    >Business Name</label
-                  >
-                  <input
-                    type="text"
-                    class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
-                    name="businessname"
-                    id="businessname"
-                    aria-describedby="form-control"
-                    placeholder=""
-                    required
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label text-dark"
-                    >Business Description</label
-                  >
-                  <input
-                    type="text"
-                    class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
-                    name="businessdescription"
-                    id="businessdescription"
-                    aria-describedby="form-control"
-                    placeholder="Enter description of Business"
-                    required
-                  />
-                </div>
-                <div class="mb-3">
-                  <label
-                    for="exampleFormControlSelect1"
-                    class="form-label text-dark"
-                    >Do You Currently Have a Website</label
-                  >
-                  <select
-                    class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
-                    name="websitestatus"
-                    id="exampleFormControlSelect1"
-                    required
-                  >
-                    <option value="">Select Answer</option>
-                    <option>Yes</option>
-                    <option>No</option>
-                  </select>
-                </div>
-                <div class="mb-3">
-                  <label
-                    for="exampleFormControlSelect1"
-                    class="form-label text-dark"
-                    >Have You Done SEO In The Past</label
-                  >
-                  <select
-                    class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
-                    name="pastseo"
-                    id="exampleFormControlSelect3"
-                    required
-                  >
-                    <option value="">Select Answer</option>
-                    <option>Yes</option>
-                    <option>No</option>
-                  </select>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label text-dark"
-                    >I'm Interested In:</label
-                  >
-                  <br />
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input"
-                      name="services[]"
-                      type="checkbox"
-                      id="inlineCheckbox1"
-                      value="Optimization"
-                    />
-                    <label class="form-label text-dark" for="inlineCheckbox1"
-                      >Optimizing My Website</label
-                    >
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input"
-                      name="services[]"
-                      type="checkbox"
-                      id="inlineCheckbox2"
-                      value="Rank Higher"
-                    />
-                    <label class="form-label text-dark" for="inlineCheckbox2"
-                      >Ranking higher for important keywords</label
-                    >
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input"
-                      name="services[]"
-                      type="checkbox"
-                      id="inlineCheckbox3"
-                      value="up traffic"
-                    />
-                    <label class="form-label text-dark" for="inlineCheckbox3"
-                      >Increasing Traffic</label
-                    >
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input"
-                      name="services[]"
-                      type="checkbox"
-                      id="inlineCheckbox4"
-                      value="up sales"
-                    />
-                    <label class="form-label text-dark" for="inlineCheckbox4"
-                      >Increasing Sales</label
-                    >
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input"
-                      name="services[]"
-                      type="checkbox"
-                      id="inlineCheckbox5"
-                      value="up sign ups"
-                    />
-                    <label class="form-label text-dark" for="inlineCheckbox5"
-                      >Increasing Sign ups</label
-                    >
-                  </div>
-                </div>
-                <div class="mb-3"></div>
-                <div class="mb-3">
-                  <label class="form-label text-dark"> Your message </label>
-                  <textarea
-                    rows="4"
-                    class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0"
-                  ></textarea>
-                  <div class="msg-error"></div>
-                  <div
-                    class="g-recaptcha"
-                    id="key_recaptcha"
-                    data-sitekey="6Lfi9OgUAAAAAHCZKyvl2jKek6k5fPuDxkTAHw-6"
-                    required
-                  ></div>
-                </div>
+        <!-- Font Awesome -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+        <link rel="icon" href="src/favicon.ico" />
+        <title>SEO|MogulMatter</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93715648-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+            gtag("config", "UA-93715648-1");
+            gtag("config", "AW-966606947");
+        </script>
+    </head>
+    <body class="bg-dark">
+        <!-- Contact form-->
+        <main class="container mt-4 text-light">
+            <div class="container container-form">
+                <h1 class="display-4 text-center mb-3 text-secondary">Search Engine Optimization</h1>
+                <!-- Form -->
+                <section class="bg-dark mt-5">
+                    <div class="container position-relative fx-fade-up animation-delay-3">
+                        <div class="bg-white w-lg-60 rounded shadow-light-lg mx-auto py-5 px-4 px-md-6">
+                            <form action="seo-form.php" id="" method="post">
+                                <div class="row mb-3">
+                                    <div class="col-md-6">
+                                        <label for="exampleInputEmail1 " class="form-label text-dark">First Name</label>
+                                        <input type="text" name="firstname" class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0" placeholder="" aria-label="First name" />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="exampleInputEmail1" class="form-label text-dark">Last Name</label>
+                                        <input type="text" name="lastname" class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0" placeholder="" aria-label="Last name" />
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label text-dark"> Email address </label>
+                                    <input type="email" name="emailaddress" id="exampleInputEmail1" class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0" />
+                                    <div class="invalid-feedback">Please enter a valid email address.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label text-dark"> Phone number </label>
+                                    <input type="phone" name="phonenumber" id="phone" class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0" />
+                                    <div class="invalid-feedback">Please enter your Phone Number.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label text-dark">Business Name</label>
+                                    <input type="text" class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0" name="businessname" id="businessname" aria-describedby="form-control" placeholder="" required />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label text-dark">Business Description</label>
+                                    <input type="text" class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0" name="businessdescription" id="businessdescription" aria-describedby="form-control" placeholder="Enter description of Business" required />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlSelect1" class="form-label text-dark">Do You Currently Have a Website</label>
+                                    <select class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0" name="websitestatus" id="exampleFormControlSelect1" required>
+                                        <option value="">Select Answer</option>
+                                        <option>Yes</option>
+                                        <option>No</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlSelect1" class="form-label text-dark">Have You Done SEO In The Past</label>
+                                    <select class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0" name="pastseo" id="exampleFormControlSelect3" required>
+                                        <option value="">Select Answer</option>
+                                        <option>Yes</option>
+                                        <option>No</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label text-dark">I'm Interested In:</label>
+                                    <br />
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" name="services[]" type="checkbox" id="inlineCheckbox1" value="Optimization" />
+                                        <label class="form-label text-dark" for="inlineCheckbox1">Optimizing My Website</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" name="services[]" type="checkbox" id="inlineCheckbox2" value="Rank Higher" />
+                                        <label class="form-label text-dark" for="inlineCheckbox2">Ranking higher for important keywords</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" name="services[]" type="checkbox" id="inlineCheckbox3" value="up traffic" />
+                                        <label class="form-label text-dark" for="inlineCheckbox3">Increasing Traffic</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" name="services[]" type="checkbox" id="inlineCheckbox4" value="up sales" />
+                                        <label class="form-label text-dark" for="inlineCheckbox4">Increasing Sales</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" name="services[]" type="checkbox" id="inlineCheckbox5" value="up sign ups" />
+                                        <label class="form-label text-dark" for="inlineCheckbox5">Increasing Sign ups</label>
+                                    </div>
+                                </div>
+                                <div class="mb-3"></div>
+                                <div class="mb-3">
+                                    <label class="form-label text-dark"> Your message </label>
+                                    <textarea rows="4" class="form-control form-control-lg border-top-0 border-left-0 border-right-0 rounded-0" name="message" id="exampleFormControlTextarea1"></textarea>
+                                    <div class="msg-error"></div>
+                                    <div class="g-recaptcha" id="key_recaptcha" data-sitekey="6Lfi9OgUAAAAAHCZKyvl2jKek6k5fPuDxkTAHw-6" required></div>
+                                </div>
 
-                <input
-                  type="submit"
-                  value="Send Message"
-                  class="btn btn-block btn-purple btn-lg hover-lift-light mt-4"
-                />
-              </form>
+                                <button class="btn btn-block btn-purple btn-lg hover-lift-light mt-4" type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
             </div>
-          </div>
+        </main>
+        <!-- End Contact Form -->
+
+        <!-- ./Footer -->
+        <section>
+            <footer class="footer footer-dark bg-dark vw-100 bottom-0 py-7">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-12 col-md mt-5 mt-md-0">
+                            <h6 class="footer-header mb-4 pb-md-2">Products</h6>
+                            <a class="link-secondary footer-link mt-2" href="real-estate-photography.html">Real Estate Photo&Video</a>
+                            <a class="link-secondary footer-link mt-2" href="website-design.html">Website Design</a>
+                            <a class="link-secondary footer-link mt-2" href="website-hosting.html">Website Hosting</a>
+
+                            <a class="link-secondary footer-link mt-2" href="advertising.html">Advertising</a>
+                            <a class="link-secondary footer-link mt-2" href="seo.html">SEO</a>
+                        </div>
+
+                        <div class="col-12 col-md mt-5 mt-md-0">
+                            <h6 class="footer-header mb-4 pb-md-2">Resources</h6>
+                            <a href="#" class="footer-link"> Blog </a>
+                        </div>
+
+                        <div class="col-12 col-md mt-5 mt-md-0">
+                            <h6 class="footer-header mb-4 pb-md-2">About</h6>
+                            <a href="#" class="footer-link">Contact Us</a>
+                            <a href="#" class="footer-link mt-2">Home</a>
+                        </div>
+                    </div>
+
+                    <div class="mt-6">
+                        <div class="col-12 col-md">
+                            <img class="mb-2" src="src/logoblack.png" alt="logoblack" width="200" />
+                            <small class="d-block mb-3 text-muted">&copy; 2015-2020</small>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="footer-text mx-3"> Privacy & terms </a>
+                            <a href="#" class="footer-text mx-3"> Terms of service </a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </section>
-      </div>
-    </main>
-    <!-- End Contact Form -->
 
-    <!-- ./Footer -->
-    <section>
-      <footer class="footer footer-dark bg-dark vw-100 bottom-0 py-7">
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-12 col-md mt-5 mt-md-0">
-              <h6 class="footer-header mb-4 pb-md-2">Products</h6>
-              <a
-                class="link-secondary footer-link mt-2"
-                href="real-estate-photography.html"
-                >Real Estate Photo&Video</a
-              >
-              <a
-                class="link-secondary footer-link mt-2"
-                href="website-design.html"
-                >Website Design</a
-              >
-              <a
-                class="link-secondary footer-link mt-2"
-                href="website-hosting.html"
-                >Website Hosting</a
-              >
-
-              <a class="link-secondary footer-link mt-2" href="advertising.html"
-                >Advertising</a
-              >
-              <a class="link-secondary footer-link mt-2" href="seo.html">SEO</a>
-            </div>
-
-            <div class="col-12 col-md mt-5 mt-md-0">
-              <h6 class="footer-header mb-4 pb-md-2">Resources</h6>
-              <a href="#" class="footer-link"> Blog </a>
-            </div>
-
-            <div class="col-12 col-md mt-5 mt-md-0">
-              <h6 class="footer-header mb-4 pb-md-2">About</h6>
-              <a href="#" class="footer-link">Contact Us</a>
-              <a href="#" class="footer-link mt-2">Home</a>
-            </div>
-          </div>
-
-          <div class="mt-6">
-            <div class="col-12 col-md">
-              <img class="mb-2" src="src/logoblack.png" alt="logoblack" width="200" />
-              <small class="d-block mb-3 text-muted">&copy; 2015-2020</small>
-            </div>
-            <div class="d-flex justify-content-center">
-              <a href="#" class="footer-text mx-3"> Privacy & terms </a>
-              <a href="#" class="footer-text mx-3"> Terms of service </a>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </section>
-
-    <script src="assets/js/vendor.min.js"></script>
-    <script src="assets/js/theme.min.js"></script>
-  </body>
+        <script src="assets/js/vendor.min.js"></script>
+        <script src="assets/js/theme.min.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    </body>
 </html>
